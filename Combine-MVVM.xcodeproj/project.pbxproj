@@ -161,9 +161,9 @@
 		1B1586DA269AC50F009C5D42 /* Combine-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				1B15870B269AC52D009C5D42 /* Network */,
 				1B158730269AC6F7009C5D42 /* Utility */,
 				1B158719269AC53A009C5D42 /* Entities */,
+				1B15870B269AC52D009C5D42 /* Network */,
 				1B15871E269AC6B1009C5D42 /* Sences */,
 				1B1586DB269AC50F009C5D42 /* AppDelegate.swift */,
 				1B1586DD269AC50F009C5D42 /* SceneDelegate.swift */,

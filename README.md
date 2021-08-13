@@ -28,6 +28,40 @@ protocol ViewModelType {
     func transform(_ input: Input, _ cancelBag: CancelBag) -> Output
 }
 ```
+## Folder Structure
+```
+.
+├── Sources
+│   ├── Utility
+│   ├── Entities
+│   ├── Network
+│   ├── Sences
+│   ├── ├── Storyboards
+│   │   │    ├── Main.storyboard
+│   │   │    └── Login.storyboard
+│   │   │
+│   │   ├── Sence_1
+│   │   │    ├── Sence_1ViewModel
+│   │   │    ├── Sence_1ViewController
+│   │   │    ├── Sence_1UseCase
+│   │   │    └── Sence_1Navigator
+│   │   │
+│   │   ├── Sence_2
+│   │   │    ├── Sence_2ViewModel
+│   │   │    ├── Sence_2ViewController
+│   │   │    ├── Sence_2UseCase
+│   │   │    └── Sence_2Navigator
+│   │   └── ........
+│   │
+│   ├── AppDelegate  
+│   ├── SceneDelegate
+│   ├── Assets
+│   ├── Info.plist
+│   └── LaunchScreen
+│       
+└── Tests
+    └── Testcases
+```
 
 ## Setup
 * Xcode 12
