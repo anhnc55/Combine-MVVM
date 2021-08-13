@@ -1,7 +1,9 @@
 # Sample project with Combine + SwiftUI/UIKit and MVVM architecture
 
-![Simulator Screen Shot - iPhone 12 - 2021-07-11 at 21 13 44](https://user-images.githubusercontent.com/7624652/125202685-cc959f80-e29e-11eb-8ef6-6e0d07187de5.png)
-![Simulator Screen Shot - iPhone 12 - 2021-07-11 at 21 14 01](https://user-images.githubusercontent.com/7624652/125202688-d15a5380-e29e-11eb-8f31-f24f573bd608.png)
+| UIKit | SwiftUI |
+| ----- | ------- |
+|![Simulator Screen Shot - iPhone 12 - 2021-07-11 at 21 13 44](https://user-images.githubusercontent.com/7624652/125202685-cc959f80-e29e-11eb-8ef6-6e0d07187de5.png) | ![Simulator Screen Shot - iPhone 12 - 2021-07-11 at 21 14 01](https://user-images.githubusercontent.com/7624652/125202688-d15a5380-e29e-11eb-8f31-f24f573bd608.png) |
+
 
 This sample app consist includes basic concepts that are common use cases for using reactive programming, that is implemented with the MVVM pattern, heavy use of Combine with both UIKit and SwiftUI, which makes binding very easy.
 
@@ -28,6 +30,8 @@ protocol ViewModelType {
 ```
 
 ## Setup
+* Xcode 12
+* Swift 5
 
 ## TODO
 * Add test
